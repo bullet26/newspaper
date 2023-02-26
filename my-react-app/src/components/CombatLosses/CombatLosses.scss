@@ -1,0 +1,31 @@
+@import '../../assets/variables';
+
+.losses {
+    &-subheader {
+        padding: 6px 15px;
+        background-color: $bgc;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-day {
+        color: $grey;
+
+        span {
+            color: $orange;
+        }
+    }
+
+    &-stat {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        row-gap: 15px;
+        color: $grey;
+
+        &-value {
+            color: $orange;
+        }
+    }
+}

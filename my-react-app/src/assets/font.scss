@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'TT Severs';
+    src: local('TT Severs  Bold'), local('TT-Severs--Bold'), url('./TTSevers-Bold.woff2') format('woff2'), url('./TTSevers-Bold.woff') format('woff'), url('./TTSevers-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Severs';
+    src: local('TT Severs  Demi Bold'), local('TT-Severs--Demi-Bold'), url('./TTSevers-DemiBold.woff2') format('woff2'), url('./TTSevers-DemiBold.woff') format('woff'),
+        url('./TTSevers-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Severs';
+    src: local('TT Severs  Medium'), local('TT-Severs--Medium'), url('./TTSevers-Medium.woff2') format('woff2'), url('./TTSevers-Medium.woff') format('woff'),
+        url('./TTSevers-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Severs';
+    src: local('TT Severs  Regular'), local('TT-Severs--Regular'), url('./TTSevers-Regular.woff2') format('woff2'), url('./TTSevers-Regular.woff') format('woff'),
+        url('./TTSevers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
